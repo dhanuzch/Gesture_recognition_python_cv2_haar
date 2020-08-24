@@ -8,16 +8,7 @@ lpalm_cascade = cv2.CascadeClassifier('lpalm.xml')
 left_cascade = cv2.CascadeClassifier('left.xml')
 fist_cascade = cv2.CascadeClassifier('fist.xml')
 right_cascade = cv2.CascadeClassifier('right.xml')
-rpalm_cascade = cv2.CascadeClassifier('rpalm.xml')
-
-"""
-def count_reset():
-    lpalm_count=0
-    left_count=0
-    fist_count=0
-    rpalm_count=0
-    right_count=0
-"""    
+rpalm_cascade = cv2.CascadeClassifier('rpalm.xml')  
 
 
 
@@ -43,36 +34,31 @@ while 1:
         font = cv2.FONT_HERSHEY_SIMPLEX
         cv2.putText(img,'Left palm',(x-w,y-h), font, 0.5, (11,255,255), 2, cv2.LINE_AA)
         sleep(1)
-        #to turn left
-        
+         
 
     for (x,y,w,h) in left:
         font = cv2.FONT_HERSHEY_SIMPLEX
         cv2.putText(img,'Left Hand',(x-w,y-h), font, 0.5, (11,255,255), 2, cv2.LINE_AA)
         sleep(1)
-        #To stop
-        
+             
         
     for (x,y,w,h) in fist:
         font = cv2.FONT_HERSHEY_SIMPLEX
         cv2.putText(img,'Fist',(x-w,y-h), font, 0.5, (11,255,255), 2, cv2.LINE_AA)        
         sleep(1)
-        # to move forward
-        
+               
         
     for (x,y,w,h) in right:
         font = cv2.FONT_HERSHEY_SIMPLEX
         cv2.putText(img,'Right Hand',(x-w,y-h), font, 0.5, (11,255,255), 2, cv2.LINE_AA)   
         sleep(1)
-        # to stop
-        
+               
         
     for (x,y,w,h) in rpalm:
         font = cv2.FONT_HERSHEY_SIMPLEX
         cv2.putText(img,'Right Palm',(x-w,y-h), font, 0.5, (11,255,255), 2, cv2.LINE_AA)       
         sleep(1)
-        #to turn right
-
+       
 
     cv2.imshow('img',img)
     k = cv2.waitKey(30) & 0xff
