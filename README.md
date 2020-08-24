@@ -2,7 +2,7 @@
 
 * Download and extract zip
 
-* Run *Hand Gesture recognition python_cv2_haar* from repo
+* Run *Hand Gesture recognition python_cv2_haar.py* from repo
 
 
 You can modify the code to detect almost anything, To train new classifiers follow this [official tutorial](https://docs.opencv.org/2.4/doc/user_guide/ug_traincascade.html)
