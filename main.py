@@ -4,11 +4,11 @@ from time import sleep
 
 
 
-lpalm_cascade = cv2.CascadeClassifier('lpalm.xml')
-left_cascade = cv2.CascadeClassifier('left.xml')
-fist_cascade = cv2.CascadeClassifier('fist.xml')
-right_cascade = cv2.CascadeClassifier('right.xml')
-rpalm_cascade = cv2.CascadeClassifier('rpalm.xml')  
+lpalm_cascade = cv2.CascadeClassifier('classifiers/lpalm.xml')
+left_cascade = cv2.CascadeClassifier('classifiers/left.xml')
+fist_cascade = cv2.CascadeClassifier('classifiers/fist.xml')
+right_cascade = cv2.CascadeClassifier('classifiers/right.xml')
+rpalm_cascade = cv2.CascadeClassifier('classifiers/rpalm.xml')  
 
 
 
