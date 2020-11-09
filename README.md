@@ -11,7 +11,7 @@
  - You can modify the code to detect almost anything, To train new classifiers follow this [official tutorial.](https://docs.opencv.org/2.4/doc/user_guide/ug_traincascade.html)
  - You can find other pre-built classifiers from [official opencv2 repo.](https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
-**Note:** If you're using other classifiers. Paste those classifiers in `classifiers` folder
+**Note:** If you're using other classifiers. Put those classifiers in `classifiers` folder
 
 ***Enjoy!***
 
